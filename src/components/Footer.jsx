@@ -1,14 +1,13 @@
 import { Link } from 'react-router-dom'
-import Logo from './Logo.jsx'
 
 export default function Footer() {
   return (
     <footer className="bg-ink text-cream/80 pt-14 pb-8">
       <div className="max-w-site mx-auto px-6 md:px-8 grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-8">
         <div className="col-span-2 md:col-span-1">
-          <div className="flex items-center gap-2">
-            <Logo size={24} dark />
-            <span className="font-display font-bold text-lg text-cream">Oogst</span>
+          <div className="flex items-center gap-2.5">
+            <img src="/Oogst_logo.png" alt="Oogst logo" className="h-8 w-8 object-contain brightness-0 invert md:h-9 md:w-9" />
+            <span className="font-display font-bold text-lg md:text-xl text-cream">Oogst</span>
           </div>
           <p className="mt-3.5 text-[14.5px] max-w-[32ch] text-cream/60">
             Websites that rank. Leads that convert. A Netzer company.

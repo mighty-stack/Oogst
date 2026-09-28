@@ -38,8 +38,8 @@ export default function Header() {
     <header className="sticky top-0 z-50 bg-cream/90 backdrop-blur border-b border-ink/10">
       <nav className="max-w-site mx-auto flex items-center justify-between px-4 md:px-8 py-3 md:py-4 gap-3">
         <Link to="/" className="flex items-center gap-2.5 shrink-0">
-          <img src="/Oogst_logo.webp" alt="Oogst logo" className="h-7 w-7 rounded-full object-cover shadow-sm" />
-          <span className="font-display font-bold text-xl text-ink">Oogst</span>
+          <img src="/Oogst_logo.png" alt="Oogst logo" className="h-9 w-9 object-contain md:h-10 md:w-10" />
+          <span className="font-display font-bold text-xl md:text-[1.45rem] text-ink">Oogst</span>
         </Link>
 
         <div className="hidden md:flex items-center gap-9">
